@@ -1,0 +1,343 @@
+/*адаптация под экраны меньше 480px*/
+@media all and (max-width:480px){
+  .smileBar{
+    position:fixed;
+    right:1px;
+    bottom:50px;
+
+    width:250px;
+    max-height:250px;
+    background:#5c5d5e;
+    border-radius:3px;
+    padding:4px;
+    overflow-y:scroll;
+  }
+  .messageBlockLeft{
+    float:left;
+    overflow:hidden;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+  }
+  .messageBlockLeft img {
+    width:50px;
+
+  }
+  .rightDiv{
+    display:none;
+  }
+  .mobile{
+    display:block;
+  }
+  .desktop{
+    display:none;
+  }
+  .fixed_div{
+    display:none;
+  }
+  .forbidenBlock{
+    position:absolute;
+    bottom:0;
+    width:calc(100% - 60px);
+    color:red;
+    padding:30px;
+    font-size:60px;
+    background:rgba(255,255,255,0.6);
+  }
+  .rightBlockInfo{
+    display:none;
+  }
+  .newsContainer{
+    width:calc(100% - 16px);
+    padding:0 8px 0 8px;
+  }
+  .LoadImgBlock{
+    width:100%;
+  }
+  .dialogSettingsPanel{
+    position:fixed;
+    width:calc(100% - 16px);
+    min-height:calc(100% - 98px);
+    right:8px;
+  }
+  .imgMsgAttach{
+    min-width:100%;
+    border-radius:3px;
+  }
+  .content{
+      padding-top:45px;
+      padding-left:0px;
+      width:100%;
+  }
+  .logo{
+    width:calc(30% - 45px);
+    font-size:35px;
+    padding-top:0px;
+    padding:0;
+  }
+  .find{
+    width:70%;
+  }
+  .find_input{
+    margin-right:2px;
+    width:calc(100% - 80px);
+  }
+  .sendMessagePanel{
+    bottom:0px;
+    left:0;
+    width:100%;
+    z-index:4;
+  }
+  .dialogHeader{
+    position:fixed;
+    top:45px;
+    left:0px;
+    width:100%;
+    z-index:4;
+    line-height:35px;
+  }
+  .avatar_block{
+    margin:8px 4px 0px 8px;
+    float:none;
+    width:calc(100% - 24px);
+    padding:4px;
+    border-radius:3px;
+  }
+  .info_block{
+    float:none;
+    width:calc(100% - 16px);
+    padding:0px;
+    margin:8px 4px 0px 8px;
+    border-radius:3px;
+  }
+  .info_block_section{
+    border-radius:3px;
+    margin-bottom:8px;
+  }
+  .big_avatar{
+    width:100%;
+    max-height:600px;
+  }
+  .menu{
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    left:-100%;
+    background:#14171c;
+    padding-top:0;
+    overflow:hidden;
+    width:100%;
+  }
+
+  .menupunkt{
+      font-size:20px;
+      width:calc(100% - 16px);
+      padding:8px;
+      vertical-align:middle;
+  }
+  .menu_text{
+    text-align:center;
+    width:calc(100% - 60px);
+    display:inline-block;
+  }
+  .menu_icon{
+    display:block;
+    float:left;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    width:35px;
+    cursor:pointer;
+    height:35px;
+  }
+  .attachmentsDiv{
+    left:4px;
+    padding:4px;
+  }
+  .accounts{
+    display:none;
+  }
+  .newsContainer{
+    width:100%;
+    padding:0;
+  }
+  .wall{
+     margin-bottom:8px;
+     padding:10px;
+  }
+  .contactdiv{
+    width:calc(100% - 16px);
+    padding:8px;
+    margin:4px 0px 0 0px;
+    color:white;
+    border-radius:3px;
+    overflow:hidden;
+  }
+  .dialogBlock{
+    width:calc(100% - 16px);
+    padding:8px;
+    margin:4px 0 0 0;
+    border-radius:3px;
+  }
+}
+/*aдаптация под экраны шире 900 px*/
+@media all and (min-width:900px){
+  /*menu-icons*/
+  .profile_icon{
+    min-width:25px;
+    min-height:25px;
+    background-size:cover;
+    vertical-align:middle;
+  }
+  .news_icon{
+    min-width:25px;
+    min-height:25px;
+    background-size:cover;
+    vertical-align:middle;
+  }
+  .messages_icon{
+    min-width:25px;
+    min-height:25px;
+    background-size:cover;
+    vertical-align:middle;
+  }
+  .contacts_icon{
+    min-width:25px;
+    min-height:25px;
+    background-size:cover;
+    vertical-align:middle;
+  }
+  .settings_icon{
+    min-width:25px;
+    min-height:25px;
+    background-size:cover;
+    vertical-align:middle;
+  }
+  .exit_icon{
+    min-width:25px;
+    min-height:25px;
+    background-size:cover;
+    vertical-align:middle;
+  }
+    .menu{
+      width:calc(20% - 1px);
+      position:fixed;
+      height:calc(100% - 48px);
+      display:block;
+      z-index:20;
+    }
+
+    .avatarOblojka{
+        overflow:hidden;
+        max-height:200px;
+        margin-bottom:4px;
+    }
+    .contactNameLeft{
+      width:90%;
+    }
+    .contactNameRight{
+      width:10%;
+    }
+    .LoadImgBlock{
+      width:100%;
+    }
+}
+/*адаптация под экраны шириной от 480px до 900px*/
+@media all and (min-width:480px) and (max-width:900px){
+  .controllerDiv{
+    display:none;
+  }
+  .accounts{
+    display:none;
+  }
+  .rightDiv{
+    display:none;
+  }
+  .fixed_div{
+    display:none;
+  }
+  .newsContainer{
+    width:calc(100% - 16px);
+    padding:0 8px 0 8px;
+  }
+  .rightBlockInfo{
+    display:none;
+  }
+  .LoadImgBlock{
+    width:100%;
+  }
+  .dialogSettingsPanel{
+    position:fixed;
+    min-width:50%;
+    right:8px;
+  }
+  .imgMsgAttach{
+    min-width:100%;
+    border-radius:3px;
+  }
+  .menu{
+      width:43px;
+  }
+  .menupunkt{
+      font-size:0px;
+      max-width:35px;
+      min-width:35px;
+      max-height:35px;
+      cursor:pointer;
+      padding:4px;
+  }
+  .content{
+      padding-top:45px;
+      padding-left:43px;
+      width:calc(100% - 43px);
+  }
+  .sendMessagePanel{
+    bottom:0px;
+    left:44px;
+    width:calc(100% - 44px);
+  }
+  .dialogHeader{
+    position:fixed;
+    top:45px;
+    left:44px;
+    width:calc(100% - 44px);
+    line-height:35px;
+  }
+  .logo{
+    width:calc(50px - 8px);
+    padding:4px;
+  }
+  .logo img{
+    width:100%;;
+  }
+  .find{
+    width:calc(100% - 50px);
+  }
+  .find_input{
+    width:224px;
+    margin-left:0;
+  }
+  .settingsDiv{
+    width:calc(100% - 16px);
+    background:white;
+  }
+  .attachmentsDiv{
+    position:fixed;
+    bottom:56px;
+    left:48px;
+    padding:4px;
+    border-radius:3px;
+    background:white;
+  }
+}
+@media all and (min-width:900px) and (max-width:1100px){
+  .logo{
+    width:calc(20% - 40px);
+    padding-left:40px;
+  }
+  .menupunkt{
+      width:calc(100% - 40px);
+      padding: 6px 0px 6px 40px;
+  }
+}

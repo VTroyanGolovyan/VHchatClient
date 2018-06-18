@@ -1,0 +1,31 @@
+<div class="form">
+    <div>
+      <h1>VHchat</h1>
+      <div class="prompt">Register for communication!</div>
+    </div>
+    <form id="regform"  autocomplete="off">
+        <input class="input" name="name" type="text" placeholder="Введите ваше имя">
+        <input class="input" name="second_name" type="text" placeholder="Введите вашу фамилию">
+        <input class="input" name="gmail" type="text" placeholder="Введите адресс электронной почты">
+        <input class="input" name="password" type="password" placeholder="Придумайте пароль">
+        <input class="input" name="chek" type="password" placeholder="Введите его еще раз">
+        <div class = "select">
+          <select name = "country" id = "countrySelect">
+            <option value="0">Выберите страну</option>
+          </select>
+        </div>
+        <div class = "select">
+          <select name = "city" id = "citySelect">
+            <option value="0">Выберите город</option>
+          </select>
+        </div>
+        <div class="bottom">
+          <div class="href">
+          <a href="#login">Авторизация</a>
+          </div>
+          <input class="submit" type="submit" value="To register">
+          <div class="antifloat"></div>
+        </div>
+    </form>
+    <div id="regerror"></div>
+</div>

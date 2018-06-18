@@ -1,0 +1,123 @@
+/*оформление форм регистрации и авторизации*/
+.input{
+    display:block;
+    width:100%;
+    border:none;
+    outline:none;
+    border-bottom:solid 2px  #6a6c6d;
+    height:40px;
+    margin-bottom:24px;
+    font-size:20px;
+    -webkit-transition: all 0.8s ease;;
+    -moz-transition: all 0.8s ease;;
+    -o-transition: all 0.8s ease;;
+    transition: all 0.8s ease;
+    background: #292b2d;
+    color: #d1d1d1;
+}
+.input:focus{
+    -webkit-transition: all 0.8s ease;;
+    -moz-transition: all 0.8s ease;;
+    -o-transition: all 0.8s ease;;
+    transition: all 0.8s ease;
+    border-bottom:solid 2px #008e72;
+    color: #d1d1d1;
+}
+.form{
+    width:40%;
+    margin:10% auto 40px auto;
+    height:100%;
+    background:#292b2d;
+    padding:32px;
+    border-radius:3px;
+}
+h1{
+    line-height:100%;
+    padding:0;
+    margin:0;
+    color:#008e72;
+    margin-bottom:16px;
+}
+.submit{
+    display:block;
+    float:left;
+    width:20%;
+    color:white;
+    border:none;
+    background:#008e72;
+    height:40px;
+    border-radius:3px;
+    font-size:20px;
+    cursor:pointer;
+    margin-bottom:24px;
+}
+.submit:hover{
+    -webkit-transition: all 0.8s ease;;
+    -moz-transition: all 0.8s ease;;
+    -o-transition: all 0.8s ease;;
+    transition: all 0.8s ease;
+    color:#008e72;
+    background:white;
+    border:solid 1px #008e72;
+}
+.href{
+    width:80%;
+    float:left;
+}
+a{
+   font-size:20px;
+   text-decoration:none;
+   color:#12a0a8;
+}
+@media all and (max-width:480px){
+  .form{
+      width:calc(100% - 64px);
+      height:calc(100% - 64px);
+      padding:32px;
+      margin:0px;
+      border-radius:3px;
+      overflow-y:scroll;
+  }
+  .submit{
+      width:40%;
+  }
+  .href{
+      width:60%;
+
+  }
+  .reg , .login{
+    height:100%;
+  }
+}
+@media all and (min-width:480px) and (max-width:780px){
+  .fixed_div{
+    display:none;
+  }
+  .form{
+      width:calc(90% - 64px);
+      padding:32px;
+      margin-top:100px;
+      margin-bottom:100px;
+      border-radius:3px;
+
+  }
+  .submit{
+      width:40%;
+  }
+  .href{
+      width:60%;
+
+  }
+  .reg , .login{
+    min-height:100%;
+
+  }
+}
+.prompt{
+    color:#d8d8d8;
+    font-size:24px;
+    text-align:right;
+}
+#error,#regerror{
+     color:red;
+}

@@ -1,0 +1,83 @@
+/*profile*/
+.big_avatar{
+  width:200px;
+  border-radius:3px;
+  cursor:pointer;
+}
+.avatar_block{
+  margin:8px 12px 6px 8px;
+  float:left;
+  width:200px;
+  padding:12px;
+  background:#292b2d;
+  border-radius:3px;
+}
+.info_block{
+  float:left;
+  width:calc(100% - 252px);
+  padding:4px 0 0 0;
+  margin:4px 0px 0px 0px;
+}
+.info_block_section{
+  background:#292b2d;
+  border-radius:3px;
+  margin-bottom:12px;
+}
+.statusInput{
+  outline:none;
+  border:none;
+  cursor:pointer;
+  padding:12px;
+  width:calc(100% - 24px);
+  font-size:16px;
+  border-radius:3px;
+  background:#292b2d;
+  color:#6a6c6d;
+}
+.statusInputReadonly{
+  outline:none;
+  border:none;
+  border-radius:3px;
+  padding:12px;
+  width:calc(100% - 24px);
+  font-size:18px;
+  background:#292b2d;
+}
+.addContactBotton{
+  -webkit-transition: background 0.8s ease;
+  -moz-transition: background 0.8s ease;
+  -o-transition: background 0.8s ease;
+  transition: background 0.8s ease;
+  width:100%;
+  background: #6a6c6d;
+  height:23px;
+  color:#d1d1d1;
+  text-align:center;
+  font-size:16px;
+  line-height:23px;
+  border-radius:3px;
+  cursor:pointer;
+  padding: 5px 0 5px 0;
+  display:block;
+  margin-top:12px;
+}
+.infoBlockHeader{
+  font-size:20px;
+  padding:12px;
+  margin-bottom:0px;
+  text-align:center;
+  color:#d1d1d1;
+
+}
+.gapNameUserInfo{
+  width: calc(50% - 16px);
+  padding: 8px;
+  float:left;
+  color:#008e72;
+}
+.gapTextUsernfo{
+  width: calc(50% - 16px);
+  padding: 8px;
+  float:left;
+  color:#d1d1d1;
+}

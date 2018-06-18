@@ -1,0 +1,104 @@
+/*contacts*/
+.contactDivObertka{
+   cursor:pointer;
+}
+.contactdiv{
+  width:calc(100% - 20px);
+  padding:8px;
+  margin:4px 4px 0 4px;
+  color:white;
+  border-radius:3px;
+  background:#292b2d;
+  overflow:hidden;
+}
+.contactContainer:first-child{
+  margin-top:8px;
+}
+.whitediv{
+  width:calc(100% - 16px);
+  padding:4px;
+  margin-left:4px;
+}
+
+.contactdiv2{
+  width:calc(100% - 66px);
+  padding:6px;
+  margin:4px;
+  border-radius:3px;
+  background:#313235;
+  float:left;
+  overflow:hidden;
+}
+.headerMini{
+   background:white;
+   padding-left:4px;
+   font-size:24px;
+   color:#d1d1d1;
+}
+.userDeleteFromDialog{
+  font-size:0px;
+  background-image:url('../ikonki/delete.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  display:inline-block;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+.userDeleteFromDialogObertka{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  margin:4px;
+  cursor:pointer;
+  float:left;
+  border-radius:3px;
+  background:#313235;
+  padding:4px;
+}
+.contact_name{
+  color:#d1d1d1;
+  height:100%;
+}
+.contactNameLeft{
+  font-size:16px;
+  width:80%;
+  float:left;
+}
+.contactNameRight{
+  font-size:14px;
+  width:20%;
+  float:left;
+  line-height:50px;
+  color:#039b84;
+  text-align:center;
+}
+.usrStatus{
+  font-size:14px;
+  color:#6a6c6d;
+  white-space: nowrap; /* Отменяем перенос текста */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top:6px;
+}
+.usrName{
+  font-size:18px;
+}
+.contact_image{
+  width:60px;
+  border-radius:100%;
+  float:left;
+  overflow:hidden;
+
+  max-height:60px;
+}
+.miniImgContact{
+  width:60px;
+}
+.contact_name{
+  width:calc(100% - 68px);
+  font-size:24px;
+  margin-left:8px;
+  float:left;
+  color:#d1d1d1;
+}

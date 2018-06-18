@@ -1,0 +1,322 @@
+/*шаблон*/
+.rightDiv{
+  width:calc(20% - 16px);
+  margin:8px 4px 4px 4px;
+  position:fixed;
+  top:45px;
+  right:8px;
+  display:block;
+  background: #6a6c6d;
+  z-index:20;
+}
+.controllerDiv{
+  width:calc(15% - 24px);
+  margin:8px 4px 4px 4px;
+  position:fixed;
+  top:45px;
+  right:8px;
+  display:block;
+  z-index:20;
+  background:#292b2d;
+  border-radius:3px;
+  padding:4px;
+  font-size:16px;
+  color:#d1d1d1;
+  display:none;
+}
+a{
+  color:#008e72;
+  font-size: 16px;
+}
+.accounts{
+  line-height:35px;
+  text-align:center;
+  margin:5px 0 5px 0;
+  height:35px;
+  display:inline-block;
+  font-size:20px;
+  cursor:pointer;
+  color:#6a6c6d;
+}
+.accounts img{
+  float:left;
+  margin-right:4px;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+.controllerDiv a{
+  font-size:16px;
+  width:100%;
+  text-align:center;
+}
+.accountDiv{
+  text-align:center;
+  cursor:pointer;
+  padding:4px;
+  background:#292b2d;
+  color: white;
+}
+.accountDiv:hover{
+  background:#14171c;
+  border-radius:3px;
+}
+.header{
+  position:fixed;
+  top:0px;
+  height:45px;
+  background:#313235;
+  width:100%;
+  color:white;
+  z-index:30;
+}
+.find{
+  float:left;
+  font-size:20px;
+  width:65%;
+}
+.find_input{
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  height:35px;
+  padding:0;
+  border:none;
+  margin-top:5px;
+  outline:none;
+  border-radius:20px;
+  text-align:center;
+  font-size:16px;
+  background:#5c5d5e;
+  color:white;
+  width:calc(60% - 100px);
+  width:228px;
+  margin-right:4px;
+  margin-left:4px;
+}
+.find_input:focus{
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  background:white;
+  color:#020f00;
+
+}
+.find_botton{
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  position:relative;
+  min-width:35px;
+  min-height:35px;
+  width:35px;
+  font-size:0px;
+  background-image:url('../ikonki/search-white.png');
+  background-repeat: no-repeat;
+  background-size:30px 30px;
+  background-position:center;
+  display:inline-block;
+  vertical-align:top;
+  margin-top:5px;
+  cursor:pointer;
+  margin-right:4px;
+}
+.events{
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  position:relative;
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/alarm-white.png');
+  background-repeat: no-repeat;
+  background-size:30px 30px;
+  background-position:center;
+  display:inline-block;
+  vertical-align:top;
+  margin-top:5px;
+  cursor:pointer;
+}
+.events:hover{
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  background-image:url('../ikonki/alarm-white.png');
+}
+.find_botton:hover{
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  position:relative;
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/search-white.png');
+  background-repeat: no-repeat;
+  background-size:30px 30px;
+  background-position:center;
+  display:inline-block;
+  vertical-align:top;
+  margin-top:5px;
+  cursor:pointer;
+}
+.logo{
+  width:calc(20% - 80px);
+  float:left;
+  font-size:45px;
+  line-height:100%;
+  padding-left:80px;
+}
+.mobile{
+  display:none;
+}
+.menu{
+  width:calc(20% - 1px);
+  position:fixed;
+  top:45px;
+  height:calc(100% - 45px);
+  display:block;
+  z-index:20;
+  padding-top:12px;
+}
+.menupunkt{
+    font-size:20px;
+    line-height:30px;
+    width:calc(100% - 80px);
+    height:30px;
+    color:#6a6c6d;
+    cursor:pointer;
+    padding: 6px 0px 6px 80px;
+}
+.menupunkt:hover{
+    color:white;
+}
+.menu_text{
+    padding-left:12px;
+}
+.menu_icon{
+  display:none;
+  font-size:0px;
+  background-image:url('../ikonki/menuicon.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  display:inline-block;
+}
+.content{
+    padding-top:50px;
+    padding-left:20%;
+    padding-bottom:2px;
+    width:65%;
+}
+/*menu-icons*/
+.profile_icon{
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/profile.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: auto auto;
+  display:inline-block;
+  vertical-align:top;
+}
+.news_icon{
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/news.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: auto auto;
+  display:inline-block;
+  vertical-align:top;
+}
+.messages_icon{
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/messages.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: auto auto;
+  display:inline-block;
+  vertical-align:top;
+  background-position:0px 0px;
+}
+.contacts_icon{
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/contacts.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: auto auto;
+  display:inline-block;
+  vertical-align:top;
+}
+.settings_icon{
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/settings.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: auto auto;
+  display:inline-block;
+  vertical-align:top;
+}
+.exit_icon{
+  min-width:35px;
+  min-height:35px;
+  font-size:0px;
+  background-image:url('../ikonki/exit.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: auto auto;
+  display:inline-block;
+  vertical-align:top;
+  background-position:0px 0px;
+}
+
+.eventDiv{
+  position:fixed;
+  z-index:19;
+  background:#313235;
+  top:310px;
+  right:8px;
+  top:45px;
+  padding:8px;
+  border-radius:3px;
+}
+.eventDivRight{
+
+}
+.textEvt{
+  font-size:14px;
+  color:#d1d1d1;
+}
+.uploadAvatarCounter{
+  color:#6a6c6d;
+  text-align:center;
+}
+.showEvt{
+  background:#6a6c6d;
+  color:white;
+  border-radius:3px;
+  text-align:center;
+  font-size:18px;
+  -webkit-transition: all 0.8s ease;;
+  -moz-transition: all 0.8s ease;;
+  -o-transition: all 0.8s ease;;
+  transition: all 0.8s ease;
+  padding:4px;
+  width:calc(100% - 8px);
+  text-align:center
+  cursor:pointer;
+}

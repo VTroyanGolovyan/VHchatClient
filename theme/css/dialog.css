@@ -1,0 +1,301 @@
+/*dialog*/
+.hiddenSubmit{
+  diaplay:none;
+}
+.labelMessageAttachments{
+  min-width:40px;
+  min-height:40px;
+  font-size:0px;
+  background-image:url('../ikonki/attachments.png');
+  background-repeat: no-repeat;
+  background-size:30px 30px;
+  background-position:center;
+  display:inline-block;
+  cursor:pointer;
+  diaplay:none;
+}
+.attachmentsDiv{
+  position:fixed;
+  bottom:56px;
+  left:calc(20% + 4px);
+  border-radius:3px;
+  padding:4px;
+  background:#6a6c6d;
+}
+.attachmentsDiv2{
+  position:relative;
+  border-radius:3px;
+  padding:4px;
+  background:#6a6c6d;
+}
+.photoSend{
+  min-width:40px;
+  min-height:40px;
+  font-size:0px;
+  margin-left:0px;
+  margin-top:0px;
+  background-image:url('../ikonki/photo-camera.png');
+  background-repeat: no-repeat;
+  background-size:35px 35px;
+  background-position:center;
+  display:inline-block;
+  vertical-align:middle;
+  cursor:pointer;
+}
+.labelSubmitMessage{
+  min-width:40px;
+  min-height:40px;
+  font-size:0px;
+  background-image:url('../ikonki/send-button.png');
+  background-repeat: no-repeat;
+  background-size:30px 30px;
+  background-position:center;
+  display:inline-block;
+  cursor:pointer;
+
+}
+.sendMessagePanel{
+  position:absolute;
+  bottom:0;
+  padding-left:4px;
+  width:calc(65% - 10px);
+  background:#292b2d;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  padding-bottom:3px;
+  box-shadow: 0px 0px 1px black;
+}
+.sendMessagePanelNF{
+  width:calc(100% - 16px);
+  display:block;
+  margin:8px 8px 8px 8px;
+  background:#292b2d;
+  border-radius:3px;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  padding-bottom:3px;
+}
+.sendMessagePanel textarea {
+  outline:none;
+  border:none;
+  resize:none;
+  margin-right:8px;
+  margin-left:8px;
+  min-width:calc(100% - 140px);
+  max-width:calc(100% - 140px);
+  font-size:18px;
+  color:#d1d1d1;
+  background: #292b2d;
+  max-height:40px;
+  border-bottom:solid 1px #6a6c6d;
+}
+.openSmileButton{
+  display:inline-block;
+  width:40px;
+  height:38px;
+  padding-top:2px;
+  color:#5C5D5E;
+  vertical-align:top;
+  text-align:center;
+  cursor:pointer;
+  font-size:30px;
+}
+.sendMessagePanelNF textarea {
+  outline:none;
+  border:none;
+  resize:none;
+  margin-right:8px;
+  margin-left:8px;
+  min-width:calc(100% - 100px);
+  max-width:calc(100% - 100px);
+  border-bottom:solid 1px #6a6c6d;
+  font-size:18px;
+  color:#d1d1d1;
+  background:#292b2d;
+  max-height:40px;
+}
+.msgContainer{
+  margin-bottom:62px;
+  margin-top:38px;
+}
+.dialogHeader{
+  position:absolute;
+  top:45px;
+  width:calc(65% - 10px);
+  background:#292b2d;
+  height:35px;
+  padding-left: 4px;
+  line-height:100%;
+  color:#d1d1d1;
+  box-shadow: 1px 1px 1px black;
+}
+.dialogHeaderLeft{
+  position:absolute;
+  left:0;
+  overflow:hidden;
+  width:calc(100% - 38px);
+  font-size:18px;
+  padding-left: 4px;
+  padding-right: 4px;
+  line-height: 35px;
+}
+.dialogHeaderRight{
+  position:absolute;
+  right:4px;
+  top:2px;
+  width:30px;
+  min-width:30px;
+  min-height:30px;
+  font-size:0px;
+  background-image:url('../ikonki/settings.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: cover;
+  display:inline-block;
+  vertical-align:top;
+  cursor:pointer;
+}
+.LeaveDialogBotton{
+  -webkit-transition: background 0.8s ease;
+  -moz-transition: background 0.8s ease;
+  -o-transition: background 0.8s ease;
+  transition: background 0.8s ease;
+  width:calc(50% - 8px);
+  margin-left:4px;
+  margin-right:4px;
+  background:#6a6c6d;
+  height:25px;
+  color:white;
+  text-align:center;
+  font-size:18px;
+  line-height:100%;
+  border-radius:3px;
+  cursor:pointer;
+  padding-top:5px;
+  margin-bottom:4px;
+  display:block;
+  float:left;
+}
+.messageBlock{
+  width:calc(100% - 12px);
+  padding:6px;
+  margin:4px 0 4px 0;
+  border-radius:3px;
+  background:#292b2d;
+}
+.messageBlockLeft{
+  float:left;
+  overflow:hidden;
+  width:60px;
+  height:60px;
+  border-radius:100%;
+}
+.messageBlockLeft img {
+  width:60px;
+  height: 60px;
+}
+
+.messageRightTop div{
+  display:inline-block;
+  padding-left:4px;
+  color:#6a6c6d;
+}
+.messageRightBottom{
+  color:#d1d1d1;
+}
+.messageText{
+  padding-left:64px;
+  word-wrap: break-word;
+}
+.imgMsgAttach{
+  width:100%;
+  border-radius:3px;
+  cursor:pointer;
+}
+.LoadImgBotton{
+  color:white;
+  width:180px;
+  border-radius:3px;
+  background:#6a6c6d;
+  text-align:center;
+  height:18px;
+  padding:4px 0 4px 0;
+  font-size:16px;
+  cursor:pointer;
+  -webkit-transition: background 0.8s ease;
+  -moz-transition: background 0.8s ease;
+  -o-transition: background 0.8s ease;
+  transition: background 0.8s ease;
+}
+.LoadImgBlock{
+  width:100%;
+
+  margin:8px auto 0 auto;
+}
+.dialogSettingsPanel{
+  position:fixed;
+  top:84px;
+  right:calc(15% + 8px);
+  z-index:19;
+  display:none;
+  background:#d1d1d1;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  padding:4px;
+  width:30%;
+  max-height:calc(80% - 110px);
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.changeDialogNameInput{
+  width:calc(70% - 16px);
+  border:none;
+  outline:none;
+  border-bottom:solid 2px #d8d8d8;
+  height:30px;
+  font-size:16px;
+  color:#14171c;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  background: #d1d1d1;
+}
+.changeDialogNameInput:focus{
+  border-bottom:solid 2px #14171c;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.changeDialogNameSubmit{
+  -webkit-transition: background 0.8s ease;
+  -moz-transition: background 0.8s ease;
+  -o-transition: background 0.8s ease;
+  transition: background 0.8s ease;
+  width:calc(30% - 4px);
+  height:29px;
+  border:solid 1px #14171c;
+  background:#14171c;
+  color:white;
+  border-radius:3px;
+  cursor:pointer;
+  font-size:16px;
+  margin-left:16px;
+}
+.dialogBigImg{
+  width:100%;
+  margin:0 auto 0 auto;
+  border-radius:3px;
+  display:block;
+}
+.writingUsers{
+  color:white;
+  padding-left: 4px;
+  font-size:12px;
+  background: #14171c;
+}

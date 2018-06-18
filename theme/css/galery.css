@@ -1,0 +1,38 @@
+.galeryDiv{
+  border-radius: 3px;
+  background: #292b2d;
+  width: calc(100% - 16px);
+  overflow-y: hidden;
+
+  padding:8px;
+
+}
+.galeryImageDiv{
+   width: 100px;
+   height:100px;
+   overflow: hidden;
+   display: inline-block;
+   margin-right: 4px;
+   border-radius: 3px;
+}
+.imgcontainer{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.galeryHeaderLeft{
+  color:#008e72;
+  float: left;
+  padding:4px 0 4px 0;
+  width:50%;
+}
+.galeryRight{
+  background: #008e72;
+  border-radius: 3px;
+  color:white;
+  float: right;
+  padding: 4px;
+  cursor: pointer;
+}
+.galeryHeader{
+  padding-bottom: 4px;
+}

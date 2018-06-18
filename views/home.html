@@ -1,0 +1,112 @@
+<header class = "header">
+    <div class = "menu_icon" onclick = "openmenu('menu')">M</div>
+    <div class = "logo">
+        <span class = "mobile"><img src = "img/logo.png" height = "45px"></span>
+        <span class = "desktop"><img src = "img/logo.png" height = "45px"></span>
+    </div>
+    <div class = "find">
+         <input class = "find_input" id = "findusers" placeholder = "Поиск" name = "find" type = "text"><!--
+      --><div class = "find_botton" onclick = "findusers()">
+            Поиск
+         </div><!--
+      --><div class = "events">
+         </div>
+    </div>
+    <span class = "accounts" onclick = "accountController()">
+            <img src = "img/users.png" width = "30px"> Аккаунты
+    </span>
+</header>
+<nav id="menu" class = "menu" onclick = "openmenu('menu')">
+    <div class = "mask">
+    <a href = "#profile/">
+    <div class = "menupunkt">
+      <span class = 'profile_icon'>
+      </span>
+      <span class = "menu_text">
+        Профиль
+      </span>
+    </div>
+    </a>
+    <a href = "#news/">
+    <div class = "menupunkt">
+      <span class = 'news_icon'>
+      </span>
+      <span class = "menu_text">
+        Новости
+      </span>
+    </div>
+    </a>
+    <a href = "#messages/">
+    <div class = "menupunkt">
+      <span class = 'messages_icon'>
+      </span>
+      <span class = "menu_text">
+        Сообщения
+      </span>
+    </div>
+    </a>
+    <a href = "#contacts/">
+    <div class = "menupunkt">
+      <span class = 'contacts_icon'>
+      </span>
+      <span class = "menu_text">
+        Контакты
+      </span>
+    </div>
+    </a>
+    <a href = "#settings/">
+    <div class = "menupunkt">
+      <span class = 'settings_icon'>
+      </span>
+      <span class = "menu_text">
+         Настройки
+      </span>
+    </div>
+    </a>
+    <div onclick = "exit()" class = "menupunkt">
+      <span class = 'exit_icon'>
+      </span>
+      <span class = "menu_text">
+        Выход
+      </span>
+    </div>
+  </div>
+</nav>
+<div class = "content" id = "allcontent"></div>
+<div class = "controllerDiv" id = "controllerDIV">
+    Выберите аккаунт:
+    <div id = "controllerProfilesContainer"></div>
+    <a href = "#login/"><div>Другой аккаунт</div></a>
+</div>
+
+<div class = "imgResizer"  id = "imgBig">
+     <div id = "imgResizerContainer" class = "imgResizerContainer">
+        <img id = "imgResizerImage" src = "img/logo.png" alt = "Пусто">
+     </div>
+     <div onclick = "openbox('imgBig')" class = "imgBoxCtrlClose">
+       Закрыть
+     </div>
+     <div class = "imgBoxCtrl">
+       <div onclick = "imgBox.prev()" class = "imgBoxCtrlButtonLeft">
+         Назад
+       </div>
+       <div onclick = "imgBox.next()" class = "imgBoxCtrlButtonRight">
+         Далее
+       </div>
+     </div>
+</div>
+
+<div class = "progressBar" id = "progressBar">
+  <div class = "progressDiv">
+    <div class = "progressBarText">
+      Идет загрузка,подождите немного...
+    </div>
+    <div class = "progressBarCouter" id = "progressBarCouter">
+    </div>
+  </div>
+</div>
+
+<audio id = "audio" style = "display:none">
+        <source src="audio/sms.mp3"></source>
+        <source src="audio/sms.ogg"></source>
+</audio>

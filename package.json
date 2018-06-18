@@ -1,0 +1,33 @@
+{
+  "name": "VHchat",
+  "version": "1.1",
+  "main": "index.html",
+  "description": "crossplatform messager",
+  "keywords": [ "1.1", "VHchat" ],
+  "window": {
+    "title": "VHchat",
+    "icon": "logo.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 1000,
+    "height": 600,
+    "min_width": 450,
+    "min_height": 450
+  },
+
+    "nwjsBuilder": {
+        "productName": "",
+        "productVersion": "",
+        "fileDescription": "",
+        "copyright": "",
+        "internalName": "",
+        "fileVersion": "",
+        "comments": "",
+        "companyName": "",
+        "legalTrademarks": "",
+        "originalFilename": "",
+        "privateBuild": "",
+        "specialBuild": "",
+        "bundleIdentifier": ""
+    }
+}

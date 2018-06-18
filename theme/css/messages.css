@@ -1,0 +1,53 @@
+/*dialogs*/
+.dialogBlock{
+  width:calc(100% - 20px);
+  padding:8px;
+  margin:4px;
+  border-radius:3px;
+  background:#292b2d;
+}
+.dialogBlockLeft{
+  overflow:hidden;
+  height:60px;
+  float:left;
+  border-radius:3px;
+  width:60px;
+  border-radius: 100%;
+}
+.dialogImage{
+  width:60px;
+  border-radius:3px;
+}
+.dialogBlockRight{
+  width:calc(100% - 68px);
+  margin-left:8px;
+  float:left;
+
+}
+.dialogBlockRightTop{
+  color:#d1d1d1;
+  font-size:18px;
+  padding-bottom:4px;
+}
+.dialogBlockRightBottom{
+  color:#6a6c6d;
+  font-size:14px;
+  white-space: nowrap; /* Отменяем перенос текста */
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.dialogCounter{
+  font-size:14px;
+  color:white;
+  background:#039b84;
+  border-radius:8px;
+  min-width:15px;
+  min-heigth:15px;
+  display: inline-block;
+  text-align: center;
+  padding:4px;
+  margin-left:4px;
+}
+.blue{
+  color:#039b84;
+}
